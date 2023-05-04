@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录入成绩"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:background="#f0e5a3"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bj"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学生班级"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:inputType="textMultiLine"
+                android:id="@+id/studentClass"
+                android:lines="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学生姓名"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:inputType="textMultiLine"
+                android:id="@+id/studentName"
+                android:lines="1"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学生学号"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/studentNum"
+                android:inputType="textMultiLine"
+                android:lines="50"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="课程名称"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/className"
+                android:inputType="textMultiLine"
+                android:lines="50"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="课程分数"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/classPoint"
+                android:inputType="textMultiLine"
+                android:lines="50"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/studentBtn"
+            android:layout_width="204dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#f0e5a3"
+            android:text="录入成绩"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

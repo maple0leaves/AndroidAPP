@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".usedbyfragment.ImageViewActivity">
+
+    <TextView
+        android:id="@+id/newsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="作为一种传统美德和价值追求，勤俭节约是弘扬社会主义核心价值观的题中应有之义，是践行绿色生活方式的内在要求，每一名社会成员都应当身体力行。订得多、吃得少，没吃完不打包、吃不了都倒掉，这类行为反映了一些人不健康的生活方式和行为习惯。"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>

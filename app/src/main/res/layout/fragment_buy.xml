@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuyFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="购物"
+        android:textSize="50dp"
+        android:background="#f0e5a3"
+        android:gravity="center" />
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="#f0a96f"
+    android:dividerHeight="5dp"
+    android:id="@+id/buylist"/>
+
+</LinearLayout>
